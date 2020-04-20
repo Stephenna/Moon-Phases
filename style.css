@@ -17,11 +17,17 @@ body{
     
 }
 
-img{
-    max-height: 125px;
-    max-width: 125px;
+#full, #wanningGib, #lastQuart, #wanningCrescent, #newMoon, #waxingCrescent, #firstQuarter, #waxingGibou{
+    max-height: 150px;
+    max-width: 150px;
     border-radius: 6rem;
-    opacity: .85;
+    opacity: .75;
+}
+#moonImg > img{
+    max-width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 h1{
@@ -32,4 +38,12 @@ h1{
 h2{
     font-size: 25px;
 }
+
+#moonInfo{
+    padding-left: 200px;
+    padding-right: 200px;
+
+    
+}
+
 
